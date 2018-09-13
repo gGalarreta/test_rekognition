@@ -11,7 +11,7 @@ class User < ApplicationRecord
 
 
   def self.identify_user_by_image current_user
-    
+    true
   end
 
 end
